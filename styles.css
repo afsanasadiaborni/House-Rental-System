@@ -1,0 +1,8 @@
+/* Basic styles */
+body { background: #f8fafc; }
+.navbar-brand { letter-spacing: 0.5px; }
+.page { min-height: 60vh; }
+.card img { object-fit: cover; height: 160px; }
+.badge-occupied { background:#dc3545; }
+.badge-available { background:#198754; }
+.small-muted { font-size: 0.85rem; color: #6c757d; }
