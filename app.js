@@ -1,4 +1,4 @@
-// Simple House Rental System - front-end only (localStorage based)
+
 const LS_KEYS = {
   apartments: "hrs_apartments",
   landlords: "hrs_landlords",
