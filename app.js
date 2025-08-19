@@ -25,7 +25,7 @@ const demoData = {
   ]
 };
 
-// Utilities
+
 function uid(){ return Math.random().toString(36).slice(2)+Date.now().toString(36); }
 function todayStr(){ const d=new Date(); return d.toISOString().slice(0,10); }
 
@@ -45,7 +45,7 @@ function resetDemo(){
 
 document.getElementById("resetDataBtn").addEventListener("click", resetDemo);
 
-// Navigation
+
 const links = document.querySelectorAll("a.nav-link[data-page]");
 links.forEach(a=> a.addEventListener("click", (e)=>{
   e.preventDefault();
@@ -61,7 +61,7 @@ links.forEach(a=> a.addEventListener("click", (e)=>{
   if(page==="rent"){ renderPayments(); }
 }));
 
-// Render functions
+
 function renderDashboard(){
   const apartments = load(LS_KEYS.apartments) || [];
   const tenants = load(LS_KEYS.tenants) || [];
@@ -181,7 +181,7 @@ function renderPayments(){
   });
 }
 
-// Forms
+
 document.getElementById("apartmentForm").addEventListener("submit", (e)=>{
   e.preventDefault();
   const fd = new FormData(e.target);
