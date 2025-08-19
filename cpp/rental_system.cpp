@@ -1,6 +1,4 @@
-// Simple Console-Based House Rental System (C++17)
-// This is a minimal data model that mirrors the web app's entities.
-// Build: g++ -std=c++17 rental_system.cpp -o rental && ./rental
+
 #include <bits/stdc++.h>
 using namespace std;
 
